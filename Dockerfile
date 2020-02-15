@@ -13,4 +13,4 @@ VOLUME ["/ezstream", "/music"]
 
 USER $UID:$GID
 
-ENTRYPOINT ["/usr/bin/ezstream" "-c" "/ezstream/ezstream.xml"]
+ENTRYPOINT ["/usr/bin/ezstream", "-c", "/ezstream/ezstream.xml"]
